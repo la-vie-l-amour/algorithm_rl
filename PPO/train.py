@@ -7,7 +7,7 @@ python train.py --env_name="Taxi-v3" --continous_action_space=False --continous_
 '''
 
 import argparse
-from env import SubprocVecEnv
+from PPO.env import SubprocVecEnv
 from model import ActorCritic
 import numpy as np
 import torch
